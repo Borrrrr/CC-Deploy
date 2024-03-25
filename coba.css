@@ -1,0 +1,109 @@
+* {
+  font-family: DM Sans;
+  overflow-x: hidden;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 4em;
+  justify-content: end;
+  align-items: center;
+  margin-right: 1em;
+  margin-top: 1em;
+  font-family: DM Sans;
+  font-size: 1.25rem;
+}
+
+#section-awan {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* margin: 0 15em; */
+  margin-top: 3rem;
+}
+
+#intro-section {
+  margin-top: 20vh;
+}
+
+#intro-section * {
+  text-align: center;
+  font-size: large;
+}
+
+.container {
+  display: flex;
+  gap: 5px;
+}
+
+.image-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-row {
+  display: flex;
+  gap: 9px;
+}
+
+.tall-image {
+  aspect-ratio: 3.7;
+  object-fit: cover;
+  width: 22px;
+  margin: auto 0;
+}
+
+.wide-image {
+  aspect-ratio: 0.6;
+  object-fit: cover;
+  width: 53px;
+}
+
+.icon-row {
+  align-self: center;
+  display: flex;
+  align-items: start;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.square-icon {
+  aspect-ratio: 1.28;
+  object-fit: cover;
+  width: 27px;
+}
+
+.rectangle-icon {
+  aspect-ratio: 0.34;
+  object-fit: cover;
+  width: 10px;
+}
+
+.icon-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto 0;
+}
+
+.top-icon {
+  aspect-ratio: 2.44;
+  object-fit: cover;
+  width: 27px;
+}
+
+.bottom-icon {
+  aspect-ratio: 1.49;
+  object-fit: cover;
+  width: 27px;
+  margin-top: 31px;
+}
+
+#sungai-1 {
+  margin-top: 10em;
+}
+
+.profile-image {
+  scale: 0.6;
+}
